@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="notice"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:id="@+id/noticeText"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:text="yes"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/nameText"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2023-02-06"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:textColor="#0B0A0A"
+            android:id="@+id/dateText"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

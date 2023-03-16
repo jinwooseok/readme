@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/changeDisplay"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#AEDD76"
+        android:text="돌아가기"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/courseButton"
+        android:text="oo군 소식"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#3F51B5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/scheduleButton"
+        android:text="△△면 소식"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/statisticsButton"
+        android:text="♡♡마을 소식"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/notice">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/noticeListView"
+                android:layout_margin="10dp"
+                android:dividerHeight="10dp"
+                android:divider="#ffffff"
+                >
+            </ListView>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>
